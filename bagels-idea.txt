@@ -1,0 +1,39 @@
+book desc:
+In Bagels, a deductive logic game, you
+must guess a secret three-digit number
+based on clues. The game offers one of
+the following hints in response to your guess:
+“Pico” when your guess has a correct digit in the
+wrong place, “Fermi” when your guess has a correct
+digit in the correct place, and “Bagels” if your guess
+has no correct digits. You have 10 tries to guess the
+secret number.
+
+
+::::::::::::my idea not mine but essentially:::::::::; 
+first.num string generator
+next . checker 
+next . main game loop
+
+::::About::::
+game is that you have a string of 3 digits [numeric] and you now have to guess it 
+you may or may not have more than 10 chances
+game return 
+-----> fermi -----> one digit is correct and at correct place.
+-----> pico -----> one correct digit in wrong place.
+-----> bagels-----> no correct digits 
+
+::::::::::::psuedocode::::::::::::
+1.num generator
+constraints:
+randomly [1234567890]  generated 3 digit long string
+
+----->randomly [1234567890] range m se uthao aur 3 digit long string generate 
+----->yeah that's it.
+2.checker:
+constraints:
+-----> fermi -----> one digit is correct and at correct place.
+-----> pico -----> one correct digit in wrong place.
+-----> bagels-----> no correct digits 
+-loop through the inputted list and check if you have the correct answer
+-append fermi if you have one correct one and then check next.

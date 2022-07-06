@@ -1,0 +1,2 @@
+import bagels
+print(generator())
